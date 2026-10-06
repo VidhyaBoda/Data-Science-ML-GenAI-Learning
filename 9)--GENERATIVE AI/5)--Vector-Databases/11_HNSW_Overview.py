@@ -1,0 +1,17 @@
+"""11 - HNSW overview"""
+
+print("HNSW = Hierarchical Navigable Small World.")
+print()
+print("It is a graph-based approximate nearest-neighbor indexing approach.")
+print()
+print("High-level idea:")
+print("1. Represent vectors as nodes.")
+print("2. Connect useful neighboring nodes.")
+print("3. Organize connections into hierarchical layers.")
+print("4. Search the graph to efficiently approach nearest neighbors.")
+print()
+print("Key engineering concepts:")
+print("- Recall")
+print("- Search effort")
+print("- Graph connectivity")
+print("- Memory usage")

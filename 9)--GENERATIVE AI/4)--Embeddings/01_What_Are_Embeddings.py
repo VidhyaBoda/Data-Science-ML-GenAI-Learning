@@ -1,0 +1,16 @@
+"""01 - What are embeddings?"""
+
+print("An embedding is a numerical vector representation of an item.")
+print()
+print("For text, an embedding model maps text into a vector space where")
+print("semantically related inputs can often have similar representations.")
+print()
+print("Conceptual flow:")
+print("Text -> Embedding Model -> Vector")
+print()
+print("Applications:")
+print("- Semantic search")
+print("- Recommendation systems")
+print("- Document retrieval")
+print("- Clustering")
+print("- Similarity matching")

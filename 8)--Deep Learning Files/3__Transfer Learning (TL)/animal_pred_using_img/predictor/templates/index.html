@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Animal Classifier</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+            padding: 40px;
+        }
+        .card {
+            background: white;
+            padding: 30px;
+            width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+        img {
+            width: 200px;
+            margin-top: 15px;
+        }
+        button {
+            padding: 10px 20px;
+            background: green;
+            color: white;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="card">
+    <h2>🐾 Animal Image Classifier</h2>
+
+    <form method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <input type="file" name="image" required><br><br>
+        <button type="submit">Predict</button>
+    </form>
+
+    {% if img_url %}
+        <img src="{{ img_url }}">
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</div>
+
+</body>
+</html>

@@ -1,0 +1,5 @@
+My name is Vidhya Boda.
+I am a student learning Python programming.
+I want to become a Data Analyst.
+
+This line is added using append mode.

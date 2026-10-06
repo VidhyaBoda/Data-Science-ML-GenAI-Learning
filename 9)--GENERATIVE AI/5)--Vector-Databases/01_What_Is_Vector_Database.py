@@ -1,0 +1,16 @@
+"""01 - What is a vector database?"""
+
+print("A vector database is a system designed to store, index and retrieve")
+print("vector representations efficiently.")
+print()
+print("Typical record:")
+print("- Vector")
+print("- Document/chunk identifier")
+print("- Metadata")
+print("- Optional original content/reference")
+print()
+print("Primary use cases:")
+print("- Semantic search")
+print("- Retrieval-Augmented Generation (RAG)")
+print("- Recommendation")
+print("- Similarity matching")

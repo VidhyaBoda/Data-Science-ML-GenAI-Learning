@@ -1,0 +1,17 @@
+"""16 - Embeddings in RAG"""
+
+print("Embeddings are a retrieval component in many RAG architectures.")
+print()
+print("Documents")
+print("   -> Chunking")
+print("   -> Embedding model")
+print("   -> Vector store")
+print()
+print("User question")
+print("   -> Query embedding")
+print("   -> Similarity search")
+print("   -> Relevant chunks")
+print("   -> LLM")
+print("   -> Grounded answer")
+print()
+print("Next learning step after embeddings: vector databases.")

@@ -1,0 +1,2 @@
+This data is written to the file.
+File handling with finally block.

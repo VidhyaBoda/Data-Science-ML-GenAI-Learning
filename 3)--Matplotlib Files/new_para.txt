@@ -1,0 +1,7 @@
+
+    WordCloud visualization helps in understanding text data.
+    It highlights the most frequent words clearly.
+    Data science, analytics, python programming,
+    machine learning, statistics, visualization,
+    dashboards and reporting are important skills.
+    

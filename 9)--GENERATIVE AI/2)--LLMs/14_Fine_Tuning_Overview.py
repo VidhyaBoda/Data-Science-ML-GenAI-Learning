@@ -1,0 +1,15 @@
+"""14 - Fine-tuning overview"""
+
+print("Fine-tuning adapts a pretrained model using additional training data.")
+print()
+print("High-level flow:")
+print("Pretrained model")
+print("      -> Domain/task dataset")
+print("      -> Training / adaptation")
+print("      -> Evaluation")
+print("      -> Deployed adapted model")
+print()
+print("Fine-tuning is different from prompting and RAG:")
+print("- Prompting changes the instructions at inference time.")
+print("- RAG supplies external/retrieved context at inference time.")
+print("- Fine-tuning changes learned model parameters or adapter parameters.")

@@ -162,7 +162,7 @@ The project material applies the technical concepts to solution development rath
 ## 🛠️ Core Technologies
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,git,github,jupyter&perline=4" alt="Core tools">
+  <img src="https://skillicons.dev/icons?i=python,numpy,pandas,sklearn,tensorflow,jupyter,colab,git,github&perline=9" alt="Core Technologies">
 </p>
 
 **Data:** Python · NumPy · Pandas · Matplotlib · Seaborn
